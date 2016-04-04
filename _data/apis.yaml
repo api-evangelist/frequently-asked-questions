@@ -13,7 +13,7 @@
   url: ""
   specificationVersion: "0.14"
   apis:
-  - name: API Evangelist Frequently Asked Questions API
+  - name: API Evangelist FAQ API
     description: <p>No matter how well designed your API is, and easy it is to get
       up and running, new users will always have questions. this is a research project,
       API(s), and tooling to help manage the frequently asked questions that surround
