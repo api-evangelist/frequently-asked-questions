@@ -1,6 +1,6 @@
 title:        Frequently Asked Questions
 url:          http://frequently-asked-questions.apievangelist.com
-logo:         http://kinlane-productions.s3.amazonaws.com/api-evangelist/api-evangelist-logo-400.pngg
+logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-logo-faq.png
 logo_width:   80
 logo_bottom_padding: 10
 version:      1.1.1
@@ -38,38 +38,20 @@ navigation:
   - label1: Home
     link1: /index.html
     size1: 80
-    extend: 1
-    label2: Two
-    link2: /index2.html
+    extend: 0
+    label2:
+    link2:
     size2: 0
     padding: 0
     decorate: 0
-  - label1: News
-    link1: /news/
+  - label1: APIs
+    link1: /apis/
     size1: 80
     extend: 1
-    label2: RSS
-    link2: /blog.xml
+    label2: JSON
+    link2: /apis.xml
     size2: 60
     padding: 5
-    decorate: 0
-  - label1: Organizations
-    link1: /organizations/
-    size1: 80
-    extend: 1
-    label2: JSON
-    link2: /data/companies.json
-    size2: 60
-    padding: 0
-    decorate: 0
-  - label1: Building Blocks
-    link1: /building-blocks/
-    size1: 80
-    extend: 1
-    label2: JSON
-    link2: /data/buildingblocks.json
-    size2: 60
-    padding: 0
     decorate: 0
   - label1: Return to API Evangelist
     link1: http://apievangelist.com
