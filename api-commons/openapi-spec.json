@@ -1,7 +1,7 @@
 {
 	"swagger": "2.0",
 	"info": {
-		"title": "API Evangelist - Frequently Asked Questions API",
+		"title": "API Evangelist FAQ API",
 		"description": "This is an frequently asked questions for helping manage the frequently asked questions details of many disparate Frequently Asked Questions. Not all APis use the same approach, and this is an attempt to organize the mess.",
 		"termsOfService": "http://kinlane.com/terms-of-service.html",
 		"version": "v1"
