@@ -1,24 +1,29 @@
-- name: Authentication
-  description: ""
-  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-authentication-2.png
+- name: Frequently Asked Questions
+  description: No matter how well designed your API is, and easy it is to get up and
+    running, new users will always have questions. this is a research project, API(s),
+    and tooling to help manage the frequently asked questions that surround API operations.
+    It seems like a simple thing, but can go along way in helping making learning
+    what an API does a lot easier.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-question-mark.png
   x-open-ranking: "0"
   tags:
-  - Authentication
+  - Frequently Asked Questioins
   created: "2016-04-03"
   modified: "2016-04-03"
   url: ""
   specificationVersion: "0.14"
   apis:
-  - name: API Evangelist - Authentication API
-    description: This is my professional presence as the API Evangelist, where I work
-      to better understand the world of APIs. Im always working towards a better understanding
-      of how they are being used, both the good and the bad, across the technology,
-      business, and politics of APIs as I see it.
+  - name: API Evangelist Frequently Asked Questions API
+    description: <p>No matter how well designed your API is, and easy it is to get
+      up and running, new users will always have questions. this is a research project,
+      API(s), and tooling to help manage the frequently asked questions that surround
+      API operations. It seems like a simple thing, but can go along way in helping
+      making learning what an API does a lot easier.</p>
     image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
     humanURL: ""
     baseURL: http://api.apievangelist.com
     tags:
-    - Authentication
+    - Frequently Asked Questioins
     properties:
     - type: x-openapi-spec
       url: api-commons/openapi-spec.json
@@ -63,7 +68,7 @@
     url: https://twitter.com/apievangelist
   include:
   - name: Parent
-    url: http://authentication.apievangelist.com/apis.yaml
+    url: http://frequently-asked-questions.apievangelist.com/apis.yaml
   maintainers:
   - FN: Kin Lane
     x-twitter: apievangelist
