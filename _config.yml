@@ -38,20 +38,11 @@ navigation:
   - label1: Home
     link1: /index.html
     size1: 80
-    extend: 0
-    label2:
-    link2:
-    size2: 0
-    padding: 0
-    decorate: 0
-  - label1: APIs
-    link1: /apis/
-    size1: 80
     extend: 1
     label2: JSON
     link2: /apis.xml
-    size2: 60
-    padding: 5
+    size2: 0
+    padding: 15
     decorate: 0
   - label1: Return to API Evangelist
     link1: http://apievangelist.com
