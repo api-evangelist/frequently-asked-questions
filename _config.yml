@@ -1,8 +1,13 @@
-title:        FAQ
+title:        API Freqently Asked Questions
 url:          http://frequently-asked-questions.apievangelist.com
-logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-logo-faq.png
+raw_url: http://frequently-asked-questions.apievangelist.com/apis/
+
+tag: Design
+
+logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-design.png
 logo_width:   80
 logo_bottom_padding: 10
+
 version:      1.1.1
 author:
   name:       'Kin Lane'
@@ -10,78 +15,17 @@ author:
 markdown:     kramdown
 
 permalink: /:categories/:year/:month/:day/:title/
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 
-paginate: 150
-paginate_path: "/news/page:num"
+paginate: 25
+paginate_path: "/blog/page:num"
 
-categories_path : /categories.html
-tags_path : /tags.html
+github_user: api-evangelist
+github_repo: frequently-asked-questions
+github_branch: gh-pages
 
-org: api-evangelist
-repo: frequently-asked-questions
-resource: frequently-asked-questions
-oauthio: qUDL4eZqKPFb41SwuWIYIwLR6jI
-
-get_color: 009900
-post_color: 0000ff
-put_color: FF0080
-delete_color: FF9900
-
-# Masthead title
-masthead_link: http://frequently-asked-questions.apievangelist.com
-masthead_font_size: 80
-masthead_title: '{"FAQ"}'
-
-# Feature
-feature_title: API Guide
-feature_link: http://apievangelist.com
-feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/api-guides-loading.jpg
-feature_image_width: 40
-
-# Project
-project_image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-question-mark.png
-project_summary: No matter how well designed your API is, and easy it is to get up and running, new users will always have questions. this is a research project, API(s), and tooling to help manage the frequently asked questions that surround API operations.
-
-# Navigation
-navigation:
-  - label1: Home
-    link1: /index.html
-    size1: 80
-    extend: 1
-    label2: JSON
-    link2: /apis.xml
-    size2: 0
-    padding: 15
-    decorate: 0
-  - label1: Return to API Evangelist
-    link1: http://apievangelist.com
-    size1: 80
-    extend: 0
-    label2:
-    link2:
-    size2: 10
-    padding: 12
-    decorate: 1
-
-# Footer Navigation
-footernavigation:
-  - label: API 100K View
-    link: http://apievangelist.com
-  - label: News
-    link: /news/
-  - label: Partners
-    link: http://apievangelist.com/partners/
-  - label: APIs.json
-    link: http://apisjson.org
-  - label: About Kin Lane
-    link: http://kinlane.com
-  - label: Branding Guidelines
-    link: http://apievangelist.com/branding-guidelines.html
-  - label: Contact
-    link: http://kinlane.com/contacts/
-
-# sponsors
-sponsors_margin_top: 15
-sponsors_padding_top: 3
-sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json
+# Footer
+footer_title: API Evangelist
+footer_link: http://apievangelist.com
+footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
+footer_image_width: 60

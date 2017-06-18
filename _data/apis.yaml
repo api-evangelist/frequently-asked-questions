@@ -1,75 +1,56 @@
-- name: Frequently Asked Questions
-  description: No matter how well designed your API is, and easy it is to get up and
-    running, new users will always have questions. this is a research project, API(s),
-    and tooling to help manage the frequently asked questions that surround API operations.
-    It seems like a simple thing, but can go along way in helping making learning
-    what an API does a lot easier.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-question-mark.png
-  x-open-ranking: "0"
-  tags:
-  - Frequently Asked Questioins
-  created: "2016-04-03"
-  modified: "2016-04-03"
-  url: ""
-  specificationVersion: "0.14"
-  apis:
-  - name: API Evangelist FAQ API
-    description: <p>No matter how well designed your API is, and easy it is to get
-      up and running, new users will always have questions. this is a research project,
-      API(s), and tooling to help manage the frequently asked questions that surround
-      API operations. It seems like a simple thing, but can go along way in helping
-      making learning what an API does a lot easier.</p>
-    image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
-    humanURL: ""
-    baseURL: http://api.apievangelist.com
+name: API Evangelist
+description: These are my APIs for my API industry research, studying over 70 areas along an API life cycle.
+image: http://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
+tags:
+  - API
+  - Integrations
+created: "2017-05-09"
+modified: "2017-05-09"
+url: https://apievangelist.com/apis.json
+specificationVersion: "0.14"
+apis:
+  - name: Products API
+    description: This is my simple API for managing my products.
+    image: http://apievangelist.com/images/product-square.png
+    humanURL: http://apievangelist.com/
+    baseURL: http://apievangelist.com/
     tags:
-    - Frequently Asked Questioins
+      - API Evangelist
+      - Products
     properties:
-    - type: x-openapi-spec
-      url: api-commons/openapi-spec.json
-  x-common:
-  - type: x-base-url-for-api
-    url: http://api.apievangelist.com
-  - type: x-blog
-    url: /blog
-  - type: x-blog-rss-feed
-    url: blog.xml
-  - type: x-change-log
-    url: change-log/
-  - type: x-portal
-    url: http://developer.apievangelist.com
+      - type: x-openapi
+        url: http://apievangelist.com/apis/products/openapi.json
+  - name: Services API
+    description: This is my simple API for managing my services.
+    image: http://apievangelist.com/images/services-square.png
+    humanURL: http://apievangelist.com/
+    baseURL: http://apievangelist.com/
+    tags:
+      - API Evangelist
+      - Services
+    properties:
+      - type: x-openapi
+        url: http://apievangelist.com/apis/services/openapi.json
+  - name: Partners API
+    description: This is my simple API for managing my partners across the sites.
+    image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-partner.png
+    humanURL: http://apievangelist.com/
+    baseURL: http://apievangelist.com/
+    tags:
+      - API Evangelist
+      - Partners
+    properties:
+      - type: x-openapi
+        url: http://apievangelist.com/apis/partners/openapi.json
+x-common:
+  - type: x-support
+    url: https://github.com/kinlane/api-evangelist/issues
   - type: x-documentation
-    url: documentation/
-  - type: x-faq
-    url: frequently-asked-questions/
-  - type: x-getting-started
-    url: getting-started/
-  - type: x-github
-    url: https://github.com/api-evangelist
-  - type: x-issues
-    url: issues/
-  - type: x-login
-    url: https://apievangelist.3scale.net/login
-  - type: x-dedicated-plans--pricing-page
-    url: plans/
-  - type: x-privacy-policy-page
-    url: privacy-policy/
-  - type: x-road-map
-    url: road-map/
-  - type: x-selfservice-registration
-    url: https://apievangelist.3scale.net/signup
-  - type: x-status-dashboard
-    url: status/
-  - type: x-support-overview-page
-    url: support/
-  - type: x-terms-of-service-page
-    url: terms-of-service/
-  - type: x-twitter
-    url: https://twitter.com/apievangelist
-  include:
-  - name: Parent
-    url: http://frequently-asked-questions.apievangelist.com/apis.yaml
-  maintainers:
+    url: http://apievangelist.com/documentation/
+  - type: x-github-repo
+    url: https://github.com/kinlane/api-evangelist
+include: []
+maintainers:
   - FN: Kin Lane
     x-twitter: apievangelist
     email: info@apievangelist.com
