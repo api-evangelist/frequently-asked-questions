@@ -5,4 +5,28 @@
   url: https://tune.com/blog/startups-need-api/
   domain: tune.com
   image: ""
+- curated_id: 6b6389504027509b471e976a05b8f1e3
+  item_date: "2016-01-27 00:00:00"
+  title: The annotated FAQ
+  url: https://hypothes.is/blog/the-annotated-faq/
+  domain: hypothes.is
+  image: ""
+- curated_id: c2902bbb408e44c5e5be292de4b38c8f
+  item_date: "2016-04-04 00:00:00"
+  title: Brisby ? Slack bot that answers the questions you get asked too often
+  url: https://www.ohbrisby.com
+  domain: www.ohbrisby.com
+  image: ""
+- curated_id: c00dbf6f9b56219b74ae6bd966e137aa
+  item_date: "2016-05-09 00:00:00"
+  title: HelpSite.io ? Generate a beautiful FAQ  help site in minutes.
+  url: https://helpsite.io/
+  domain: helpsite.io
+  image: ""
+- curated_id: e2c8887640ec5a29c19cb9d8ddb9f979
+  item_date: "2016-10-20 00:00:00"
+  title: TIBCO Customer Reference Program Frequently Asked Questions
+  url: http://www.tibco.com/blog/2016/10/20/tibco-customer-reference-program-frequently-asked-questions/
+  domain: www.tibco.com
+  image: ""
 ...
